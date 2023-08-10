@@ -102,3 +102,48 @@ nav a:hover{
     
         }
     }
+
+    .main{
+        display: flex;
+        justify-content: space-between;
+        background-color: #DDDDDD;
+        height: 90vh;
+    }
+
+    .sub{
+     margin-top: 200px;
+     margin-left: 150px;
+    }
+    .main h4{
+        font-weight: 10;
+        margin: 25px 0px 15px 0px;
+    }
+
+    .main h2{
+        font-weight: 100;
+        color: #fff;
+       background:linear-gradient(to bottom,rgb(37, 20, 20), rgb(68, 66, 66));
+        width: 38%;
+        text-align: center;
+        padding: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        margin-top: 20px;
+        font-weight: 100;
+    }
+
+    .main h2:hover{
+        box-shadow:rgba( 0,0,0,0.8) 0px 5px 4px,inset rgba(184, 176, 176, 0.15) 0px -10px 20px ;
+    }
+
+    .im{
+        width:350px;
+        height: 300px;
+    }
+
+    .imgg{
+        width: 400px;
+        margin-right: 80px;
+        margin-top: 40px;
+        height: 75vh;
+    }
